@@ -1,10 +1,6 @@
 class Court < ActiveRecord::Base
 
-    has_many :teams
-    has_many :users, through :teams
-
-    attr_accessor :quality
-
-
+    belongs_to :teams
+    has_many :users, through: :teams
 
 end

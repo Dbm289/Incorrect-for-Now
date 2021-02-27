@@ -19,3 +19,5 @@ group :test do
   gem 'rack-test'
   gem 'database_cleaner'
 end
+
+gem "dotenv", "~> 2.7"
